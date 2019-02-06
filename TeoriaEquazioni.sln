@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquazioniLibrary", "EquazioniLibrary\EquazioniLibrary.csproj", "{5438A27E-BCBD-45E7-925C-9152C8E71276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquazioniLibrary.Test", "EquazioniLibrary.Test\EquazioniLibrary.Test.csproj", "{1C36E7CE-9D70-4833-973C-86658A5A19CF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5438A27E-BCBD-45E7-925C-9152C8E71276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5438A27E-BCBD-45E7-925C-9152C8E71276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5438A27E-BCBD-45E7-925C-9152C8E71276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5438A27E-BCBD-45E7-925C-9152C8E71276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C36E7CE-9D70-4833-973C-86658A5A19CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C36E7CE-9D70-4833-973C-86658A5A19CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C36E7CE-9D70-4833-973C-86658A5A19CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C36E7CE-9D70-4833-973C-86658A5A19CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
