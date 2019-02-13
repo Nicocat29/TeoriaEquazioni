@@ -32,5 +32,24 @@ namespace EquazioniLibrary.Test
             bool risp = Equazioni.IsDetermined(a);
             Assert.AreEqual(risp_aspettata, risp);
         }
+        [TestMethod]
+        public void TestMethod4()
+        {
+            double a = 0;
+            double b = 5; 
+            bool risp_aspettata = false;
+            bool risp = Equazioni.IsImpossible(a, b);
+            Assert.AreEqual(risp_aspettata, risp);
+        }
+
+        [TestMethod]
+        public void TestMethod5()
+        {
+            double a = 0;
+            double b = 0;
+            bool risp_aspettata = true;
+            bool risp = Equazioni.IsImpossible(a, b);
+            Assert.AreEqual(risp_aspettata, risp);
+        }
     }
 }

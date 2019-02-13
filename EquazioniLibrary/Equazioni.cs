@@ -18,6 +18,21 @@ namespace EquazioniLibrary
             {
                 return true;
             }
-        }   
+
+        }
+
+
+        public static bool IsImpossible(double a, double b)
+        {
+            if (a == 0 && b != 0) 
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+
+        }
     }
 }
