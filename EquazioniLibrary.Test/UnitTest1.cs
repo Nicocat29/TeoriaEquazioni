@@ -51,5 +51,14 @@ namespace EquazioniLibrary.Test
             bool risp = Equazioni.IsImpossible(a, b);
             Assert.AreEqual(risp_aspettata, risp);
         }
+
+        [TestMethod]
+        public void TestMethod6()
+        {
+            double a = 0;
+            bool risp_aspettata = false;
+            bool risp = Equazioni.IsDegree2(a);
+            Assert.AreEqual(risp_aspettata, risp);
+        }
     }
 }
